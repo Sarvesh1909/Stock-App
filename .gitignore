@@ -1,0 +1,35 @@
+# Node / Vite
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.env
+frontend/.env.*
+*.log
+
+# Java / Maven / Spring
+**/target/
+**/.mvn/wrapper/maven-wrapper.jar
+# Keep Maven wrapper scripts tracked
+# mvnw and mvnw.cmd should NOT be ignored
+
+# IDE / Editor
+.idea/
+.vscode/
+*.iml
+.project
+.classpath
+.settings/
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Misc caches
+.cache/
+.history/
+
+# Build outputs or temp
+bin/
+*.tmp
+*.swp
